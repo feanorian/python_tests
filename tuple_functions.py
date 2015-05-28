@@ -9,3 +9,10 @@ def tuple_value_change_kw(a_tuple=(2,3,4,5),an_int=6):
     tupnew = tupnew + a_tuple[0:]
     print tupnew + a_tuple[0:]
     return tupnew
+#returns the lenght of tuples input
+def tuplength( *tuple ):
+    for i in tuple:
+        print i
+        print len (i)
+
+    
